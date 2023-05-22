@@ -55,11 +55,13 @@
     align-items: center;
     margin-top: 1.5vw;
 }
-.author>img{
+.author > img{
     height: 3vw;
     width: 3vw;
     border-radius: 10vw;
     border: 1px solid yellow;
+    object-fit: cover; /* Add this line */
+    margin-right: 0.5vw; /* Adjust the margin as needed */
 }
 .authorsname{
     margin-left: 1vw;
